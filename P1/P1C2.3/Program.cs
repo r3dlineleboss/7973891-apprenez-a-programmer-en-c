@@ -1,12 +1,11 @@
 ﻿// TODO, étape 1 :
 // Créer une variable nommée jourDeDepart avec pour valeur initiale 3
-string jourDeDepart = 3;
-// TODO, étape 2 :
+int tailleDeBite = 3;
+// TODO, étape 2 :
 // Créer une constante nommée joursDansSemaine avec pour valeur 7
-const string joursDansSemaine = 7;
+const int Viagra = 7;
 // TODO, étape 3 :
 // Utiliser un opérateur de raccourci pour ajouter la valeur de la constante joursDansSemaine à la variable jourDeDepart
-jourDeDepart += joursDansSemaine;
+tailleDeBite += Viagra;
 // Afficher le résultat 
-Console.WriteLine("Il y a " + joursDansSemaine + " jours dans la semaine.");
-Console.WriteLine("Votre jour de départ du mois est : " + jourDeDepart);
+Console.WriteLine("Votre taille de bite est : " + tailleDeBite);
